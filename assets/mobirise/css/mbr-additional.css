@@ -542,8 +542,8 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
-#scrollToTop a {
-  border-radius: 100px;
+.scrollToTop_wraper {
+  display: none;
 }
 .form-control {
   font-family: 'Rubik', sans-serif;
@@ -1693,6 +1693,43 @@ section.lazy-placeholder:after {
   }
 }
 .cid-s27TuyQZLU H2 {
+  color: #ffffff;
+}
+.cid-s2dJDCTVLM {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #232323;
+}
+.cid-s2dJDCTVLM h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 2rem;
+}
+.cid-s2dJDCTVLM p {
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 1.5rem;
+  padding-top: 2rem;
+}
+.cid-s2dJDCTVLM .mbr-section-btn {
+  padding-top: 2.5rem;
+}
+.cid-s2dJDCTVLM .mbr-section-btn a {
+  margin: 0;
+}
+.cid-s2dJDCTVLM .mbr-text {
+  color: #767676;
+}
+.cid-s2dJDCTVLM .card-wrapper {
+  height: 100%;
+}
+@media (max-width: 767px) {
+  .cid-s2dJDCTVLM .card:not(.last-child) {
+    padding-bottom: 2rem;
+  }
+}
+.cid-s2dJDCTVLM H2 {
   color: #ffffff;
 }
 .cid-s27Ueb98kR {
